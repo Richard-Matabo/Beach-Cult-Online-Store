@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    /*background-image: url("https://www.soils.org/files/images/about-society/leaves-homepage-background.png");*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.navbar ul{ 
+    margin-top: 4%;
+    list-style: none;
+    text-align: center;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 2em;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: silver;
+}
+.navbar ul li a:hover{
+	color: rgb(40, 228, 40);
+}
+.navbar .active{
+    color: rgb(40, 228, 40);
+}
+.logo{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    color: rgb(150, 148, 148);
+    padding: 2px;
+}
+ul a{
+    color: rgb(71, 70, 70);
+}
+a:hover{
+    color: green;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Lobster', cursive;
+} 
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 1em;
+}
+h3{
+    text-align: center;
+}
+h4{
+    font-weight: bold;
+    padding: 5px;
+}
+h5{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h5 > p{
+    padding: 1em;
+}
+.text{
+    background-color: rgb(65, 51, 51);
+    text-align: center;
+    padding: 2em;
+    font-size: 18px;
+    color: rgb(228, 180, 117);
+}
+.product{
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 5%;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+.product > h3{
+    font-size: 35px;
+}
+.container{
+    transition: all 0.5s ease-in;
+}
+.container p{
+    padding: 1em;
+}
+.container img:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+}
+.left-side{
+    display: inline-block;
+    width: 200px;
+    margin-left: 15px;
+}
+.bikinis-1{
+    display: inline-flex;
+    float: left;
+    border-top: 1px solid rgb(212, 212, 212);
+    padding: 2em;
+    margin-top: 5%;
+    margin-left: 8%
+}
+.bikinis-2{
+    border-top: 1px solid rgb(212, 212, 212);
+    border-bottom: 1px solid rgb(212, 212, 212);
+    padding: 2em;
+    margin-bottom: 5%;
+    display: inline-flex;
+    margin-left: 8%
+}
+.intouch{
+    text-align: center;
+    margin-top: 5%;
+    padding: 1em;
+}
+.intouch:hover{
+    padding: 20px;
+    transition: 1s;
+}
+#contact{
+    background-color: rgb(65, 51, 51);
+    padding: 10px;
+    color: burlywood;
+}
+#details{
+    padding: 5px;
+    text-align: left;
+    color: black;
+    font-size: large;
+}
+#connect{
+    margin-top: 7%;
+}
+form{
+    width: 750px;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+.info{
+    border-radius: 5px;
+    padding-left: 100px;
+
+}
+.source{
+    text-align: center;
+}
+footer{
+    border-top: 1px solid rgb(212, 212, 212);
+    display: inline-flex;
+    padding: 2em;
+}
+
+
